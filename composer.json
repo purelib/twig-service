@@ -1,0 +1,15 @@
+{
+  "name": "purelib/twig-service",
+  "description": "twig service",
+  "type": "library",
+  "homepage": "http://purelib.com",
+  "license": "Apache-2.0",
+  "require": {
+    "php": ">=5.4",
+    "purelib/base": "dev-master",
+    "twig/twig": "1.18.*@dev"
+  },
+  "autoload": {
+    "psr-4": {"PureLib\\Service\\":""}
+  }
+}
